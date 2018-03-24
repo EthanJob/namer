@@ -34,10 +34,16 @@ header {
   padding-bottom: 40px;
 }
 
+.haha {
+  display: flex;
+  justify-content: center;
+}
+
 #btn {
   padding: 10px;
   border-radius: 5px;
   font-size: 15px;
+  width: 130px;
 }
 
 #btn:focus {
@@ -49,14 +55,15 @@ header {
   background-color: dimgrey;
 }
 
+.rainbow {
+  animation: rainbow 1.5s infinite;
+}
 
-
-
-
-
-
-
-
-
-
-//
+@keyframes rainbow{
+  16.66%{color: red;}
+	33.32%{color: orange;}
+	49.98%{color: yellow;}
+	66.64%{color: green;}
+	83.3%{color: blue;}
+	100%{color: purple;}
+}
