@@ -20,6 +20,8 @@ header {
   background-color: dimgrey;
   border: 2px solid black;
   padding-left: 10px;
+  position: fixed;
+  width: 100%;
 }
 
 .welcome, .instructions, .main-btn {
@@ -27,7 +29,7 @@ header {
 }
 
 .welcome {
-  padding: 20px 0 20px 0;
+  padding: 80px 0 20px 0;
 }
 
 .instructions {
